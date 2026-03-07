@@ -1,0 +1,319 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "STM32F051K8U6" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -68.834 46.482 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "STM32F051K8U6" (id 1) (at -68.58 -48.26 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "STM32F051K8U6:QFN50P500X500X60-33N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "STMicroelectronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            ARM® Cortex®-M0 STM32F0 Microcontroller IC 32-Bit Single-Core 48MHz 64KB (64K x 8) FLASH 32-UFQFPN (5x5)\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "UFQFN-32 STMicroelectronics" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/STM32F051K8U6/STMicroelectronics/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "7" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/STM32F051K8U6/STMicroelectronics/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "STM32F051K8U6" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=377770&manufacturer=STMicroelectronics&part_name=STM32F051K8U6&search_term=stm32f051" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "ST Microelectronics" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "STM32F051K8U6_0_0"
+      (rectangle (start -68.58 -45.72) (end 68.58 45.72)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 73.66 43.18 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 73.66 43.18 180.0) (length 5.08) hide
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 73.66 25.4 180.0) (length 5.08)
+        (name "PF0-OSC_IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 73.66 22.86 180.0) (length 5.08)
+        (name "PF1-OSC_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -73.66 33.02 0) (length 5.08)
+        (name "NRST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 73.66 40.64 180.0) (length 5.08)
+        (name "VDDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 25.4 0) (length 5.08)
+        (name "PA0/USART2_CTS/TIM2_CH1_ETR/COMP1_OUT/TSC_G1_IO1/ADC_IN0/COMP1_INM6/RTC_TAMP2/WKUP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -17.78 0) (length 5.08)
+        (name "PB0/TIM3_CH3/TIM1_CH2N/TSC_G3_IO2/EVENTOUT/ADC_IN8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -73.66 30.48 0) (length 5.08)
+        (name "BOOT0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 73.66 -43.18 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 22.86 0) (length 5.08)
+        (name "PA1/USART2_RTS/TIM2_CH2/TSC_G1_IO2/EVENTOUT/ADC_IN1/COMP1_INP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 20.32 0) (length 5.08)
+        (name "PA2/USART2_TX/TIM2_CH3/TIM15_CH1/COMP2_OUT/TSC_G1_IO3/ADC_IN2/COMP2_INM6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 17.78 0) (length 5.08)
+        (name "PA3/USART2_RX/TIM2_CH4/TIM15_CH2/TSC_G1_IO4/ADC_IN3/COMP2_INP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 15.24 0) (length 5.08)
+        (name "PA4/SPI1_NSS/I2S1_WS/USART2_CK/TIM14_CH1/TSC_G2_IO1/ADC_IN4/COMP1_INM4/COMP2_INM4/DAC_OUT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 12.7 0) (length 5.08)
+        (name "PA5/SPI1_SCK/I2S1_CK/CEC/TIM2_CH1_ETR/TSC_G2_IO2/ADC_IN5/COMP1_INM5/COMP2_INM5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 10.16 0) (length 5.08)
+        (name "PA6/SPI1_MISO/I2S1_MCK/TIM3_CH1/TIM1_BKIN/TIM16_CH1/COMP1_OUT/TSC_G2_IO3/EVENTOUT/ADC_IN6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 7.62 0) (length 5.08)
+        (name "PA7/SPI1_MOSI/I2S1_SD/TIM3_CH2/TIM14_CH1/TIM1_CH1N/TIM17_CH1/COMP2_OUT/TSC_G2_IO4/EVENTOUT/ADC_IN7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 5.08 0) (length 5.08)
+        (name "PA8/USART1_CK/TIM1_CH1/EVENTOUT/MCO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 2.54 0) (length 5.08)
+        (name "PA9/USART1_TX/TIM1_CH2/TIM15_BKIN/TSC_G4_IO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 0.0 0) (length 5.08)
+        (name "PA10/USART1_RX/TIM1_CH3/TIM17_BKIN/TSC_G4_IO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -2.54 0) (length 5.08)
+        (name "PA11/USART1_CTS/TIM1_CH4/COMP1_OUT/TSC_G4_IO3/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -5.08 0) (length 5.08)
+        (name "PA12/USART1_RTS/TIM1_ETR/COMP2_OUT/TSC_G4_IO4/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -7.62 0) (length 5.08)
+        (name "PA13/IR_OUT/SWDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -10.16 0) (length 5.08)
+        (name "PA14/USART2_TX/SWCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -12.7 0) (length 5.08)
+        (name "PA15/SPI1_NSS/I2S1_WS/USART2_RX/TIM2_CH1_ETR/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -20.32 0) (length 5.08)
+        (name "PB1/TIM3_CH4/TIM14_CH1/TIM1_CH3N/TSC_G3_IO3/ADC_IN9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -22.86 0) (length 5.08)
+        (name "PB2/TSC_G3_IO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -25.4 0) (length 5.08)
+        (name "PB3/SPI1_SCK/I2S1_CK/TIM2_CH2/TSC_G5_IO1/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -27.94 0) (length 5.08)
+        (name "PB4/SPI1_MISO/I2S1_MCK/TIM3_CH1/TSC_G5_IO2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -30.48 0) (length 5.08)
+        (name "PB5/SPI1_MOSI/I2S1_SD/I2C1_SMBA/TIM16_BKIN/TIM3_CH2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -33.02 0) (length 5.08)
+        (name "PB6/I2C1_SCL/USART1_TX/TIM16_CH1N/TSC_G5_IO3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -35.56 0) (length 5.08)
+        (name "PB7/I2C1_SDA/USART1_RX/TIM17_CH1N/TSC_G5_IO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -73.66 -38.1 0) (length 5.08)
+        (name "PB8/I2C1_SCL/CEC/TIM16_CH1/TSC_SYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
