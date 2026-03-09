@@ -5978,6 +5978,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdf82d0-6f54-4451-88e2-2cf76cf777de")
+	)
+	(wire
+		(pts
 			(xy 165.1 182.88) (xy 167.64 182.88)
 		)
 		(stroke
@@ -6165,6 +6175,16 @@
 			(type default)
 		)
 		(uuid "90203cf3-740b-4d4a-be40-67ccc3d3f7fb")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9061a81b-ee02-4588-b0ff-7cd7f350d2fe")
 	)
 	(wire
 		(pts
@@ -6578,6 +6598,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 66.04) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37e144a-ee67-4003-90c9-28d825b80575")
+	)
+	(wire
+		(pts
 			(xy 245.11 190.5) (xy 247.65 190.5)
 		)
 		(stroke
@@ -6775,16 +6805,6 @@
 			(type default)
 		)
 		(uuid "dfa1c6fd-a486-4c96-926a-29bae41389e8")
-	)
-	(wire
-		(pts
-			(xy 170.18 95.25) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f89de6-ec5c-453a-9b2c-4f01bd1a52eb")
 	)
 	(wire
 		(pts
@@ -7097,7 +7117,7 @@
 		(uuid "1904c0a8-f7b2-440f-806c-825e8dfd506c")
 	)
 	(label "3.3v"
-		(at 74.93 66.04 0)
+		(at 76.2 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7477,7 +7497,7 @@
 		(uuid "b033ab06-dd52-4c31-8e5a-3d519b0d1b02")
 	)
 	(label "Motor1_B_gatehigh"
-		(at 170.18 95.25 0)
+		(at 171.45 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7712,7 +7732,7 @@
 			)
 		)
 	)
-	(global_label "Vcc_M"
+	(global_label "Vcc"
 		(shape input)
 		(at 27.94 175.26 90)
 		(fields_autoplaced yes)
@@ -7722,9 +7742,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2b051c12-d127-4d55-bce9-986dc351e774")
+		(uuid "2c4ae221-1c0d-4760-bb21-863c3a3f2a6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 166.59 90)
+			(at 27.94 169.009 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 86.36 21.59 0)
 			(effects
 				(font
@@ -10427,7 +10447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -12818,7 +12838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 83.82 21.59 0)
 			(effects
 				(font
@@ -13367,7 +13387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 368.3 144.78 0)
 			(effects
 				(font
@@ -13639,7 +13659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 368.3 147.32 0)
 			(effects
 				(font
