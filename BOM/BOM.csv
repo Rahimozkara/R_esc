@@ -1,0 +1,32 @@
+Reference(s);Quantity;Value / Name;Footprint;Type
+U1;1;STM32F051K8U6;QFN50P500X500X60-33N;Microcontroller
+driver1;1;FD6288Q;QFN24_FOR-M;Gate Driver
+U5, U6, U7, U8, U9, U10;6;SQJ138ELP-T1_GE3;PowerPAK_SO-8L_3_VIS;N-Channel MOSFET
+U2;1;INA199A1DCKR;SOT65P210X110-6N;Current Sense Amplifier (Gain: 50)
+U3;1;AOZ1282CI;SOT-23-6;Voltage Regulator (Buck)
+U4;1;AMS1117-3.3;SOT-223-3_TabPin2;LDO Regulator (3.3V)
+D1;"1,""SS34""";D_SMA;Schottky Diode;
+D2, D3, D4;3;1N4148WT;D_SOD-523;Signal Diode
+D5;"1,""SMBJ30CA""";DIOM4336X265N;TVS Diode;
+C4, C6;2;22uF;C_1206_3216Metric;Capacitor
+C3, C5, C9;3;10uF;C_1206_3216Metric;Capacitor
+C1;1;4.7uF;C_0805_2012Metric;Capacitor
+C10, C11, C12, C13;4;1uF;C_0805_2012Metric;Capacitor
+C8;1;100nF;C_0603_1608Metric;Capacitor
+C2;1;0.1uF;C_0603_1608Metric;Capacitor
+C7;1;1nF;C_0603_1608Metric;Capacitor
+R1, R4;2;100K;R_0603_1608Metric;Resistor
+R23, R26, R29;3;47k;R_0603_1608Metric;Resistor
+R5;1;39k;R_0603_1608Metric;Resistor
+R2, R7, R8, R15, R16, R17, R18, R19, R20, R21, R24, R27;12;10K;R_0603_1608Metric;Resistor
+R22, R25, R28;3;4.7k;R_0603_1608Metric;Resistor
+R6;1;3.3K;R_0603_1608Metric;Resistor
+R30, R31;2;0.1K;R_0603_1608Metric;Resistor
+R3;1;0.056k;R_0603_1608Metric;Resistor
+R9, R10, R11, R12, R13, R14;6;0.02k;R_0603_1608Metric;Resistor (Gate)
+R32;1;1mR;R_2512_6332Metric;Shunt Resistor
+L1;1;22uH;L_6.3x6.3_H3;Inductor
+J2;1;Conn_01x04_Pin;PinHeader_1x04_P2.54mm_Vertical;Connector
+J1;1;Conn_01x03_Pin;PinHeader_1x03_P2.54mm_Vertical;Connector
+J3, J4, J5, J6, J7;5;Conn_01x01_Pin;PinHeader_1x01_P2.54mm_Vertical;Connector (Single Pin)
+NT1;1;NetTie_2;NetTie-2_SMD_Pad0.5mm;Net Tie
